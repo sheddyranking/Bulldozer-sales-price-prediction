@@ -42,3 +42,19 @@ One of the most common ways to do this, is to create a data dictionary.
 For this dataset, Kaggle provide a data dictionary which contains information about what each attribute of the dataset means. You can download this file directly from the Kaggle competition page (https://www.kaggle.com/competitions/bluebook-for-bulldozers/data?select=Data+Dictionary.xlsx)
 
 First, we'll import the dataset and start exploring. Since we know the evaluation metric we're trying to minimise, our first goal will be building a baseline model and seeing how it stacks up against the competition
+
+
+
+**5.Experimental and conclusion**
+
+From the experiment/modelling the `RMSLE` which is the set as the evaluation metric was `0.24540654616643515` on the `validation set`. and the model predicted the prices for the bulldozer sales perfectly on the `test set`, click here to view https://drive.google.com/file/d/1Z40zNlFM35ldUGM7r-3Uae0-iiuH9fuv/view?usp=sharing
+
+download the model fitted/trained model here : https://drive.google.com/file/d/1h2M51_cXKaxUiH9uqSZ7NFt7PclHfmM5/view?usp=sharing
+
+**Feature importance**
+From the table below it can be seen that the `yearMade` contributed more to the sale price prediction model
+
+![feature](https://user-images.githubusercontent.com/42388234/193078318-1a68408f-a59f-432e-9ce1-4861416ce66b.png)
+
+
+
