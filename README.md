@@ -51,7 +51,7 @@ From the experiment/modelling the `RMSLE` which is the set as the evaluation met
 
 download the model fitted/trained model here : https://drive.google.com/file/d/1h2M51_cXKaxUiH9uqSZ7NFt7PclHfmM5/view?usp=sharing
 
-**Feature importance**
+### 6.**Feature importance**
 From the table below it can be seen that the `yearMade` contributed more to the sale price prediction model
 
 ![feature](https://user-images.githubusercontent.com/42388234/193078318-1a68408f-a59f-432e-9ce1-4861416ce66b.png)
