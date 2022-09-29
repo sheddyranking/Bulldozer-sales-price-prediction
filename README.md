@@ -6,13 +6,13 @@ In this notebook, we're going to go through an example machine learning project 
 
 Since we're trying to predict a number, this kind of problem is known as a `regression problem`.
 
-**1. Problem Definition** 
+### **1. Problem Definition** 
 
 For this dataset, the problem we're trying to solve, or better, the question we're trying to answer is,
 
 > How well can we predict the future sale price of a bulldozer, given its characteristics previous examples of how much similar bulldozers have been sold for?
 
-**2. Data**
+### **2. Data**
 
 Looking at the dataset from Kaggle(https://www.kaggle.com/c/bluebook-for-bulldozers/data), you can you it's a time series problem. This means there's a time attribute to dataset.
 
@@ -26,14 +26,14 @@ There are 3 datasets:
 
 `Test.csv` - Historical bulldozer sales examples from May 1 2012 to November 2012 (close to 12,000 examples but missing the SalePrice attribute, as this is what we'll be trying to predict).
 
-**3. Evaluation**
+### **3. Evaluation**
 
 For this problem, Kaggle has set the evaluation metric to being root mean squared log error (RMSLE)(https://www.kaggle.com/c/bluebook-for-bulldozers/overview/evaluation). As with many regression evaluations, the goal will be to get this value as low as possible.
 
 To see how well our model is doing, we'll calculate the RMSLE and then compare our results to others on the Kaggle leaderboard(https://www.kaggle.com/c/bluebook-for-bulldozers/leaderboard).
 
 
-**4. Features**
+### **4. Features**
 
 Features are different parts of the data. During this step, you'll want to start finding out what you can about the data.
 
@@ -45,7 +45,7 @@ First, we'll import the dataset and start exploring. Since we know the evaluatio
 
 
 
-**5.Experimental and conclusion**
+### **5.Experimental and conclusion**
 
 From the experiment/modelling the `RMSLE` which is the set as the evaluation metric was `0.24540654616643515` on the `validation set`. and the model predicted the prices for the bulldozer sales perfectly on the `test set`, click here to view https://drive.google.com/file/d/1Z40zNlFM35ldUGM7r-3Uae0-iiuH9fuv/view?usp=sharing
 
